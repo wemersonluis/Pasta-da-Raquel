@@ -113,12 +113,13 @@ body {
         /* animation */
 
 
-        head div {
-            animation: fromtop .7s; backwards
-            animation-delay: 1s;
+        header div {
+            animation: fromTop .7s .4s backwards;
+
         }
+
         main section{
-            animation: frombottom .7s ; backwards
+            animation: frombottom .7s  backwards;
         }
 
         main section:nth-child(1){
@@ -157,3 +158,4 @@ body {
                 transform: translatey(0)
             }
         }
+        
